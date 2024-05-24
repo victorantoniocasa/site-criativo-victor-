@@ -28,18 +28,29 @@
 }
 
 .escola {
-    background-color: #FFFFFF color: #000000;
+    background-image: linear-gradient(#f1c21a, #d9d9d9);
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding; 24px 0;
-    font-family: "poppins"
+    padding: 24px 0;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .escola-div-conteudo {
-    width: 30;
+    width: 35%;
+}
 
+.escola-titulo {
+    padding: 24px 0;
+    font-size: 35px;
+}
+ 
+ .estudante-imagem{
+    width: 350px;
+ }
 
-    .escola-titulo {
-        padding: 24px 0;
-    }
+ .estudante-icone{
+    width: 30px;
+ }
